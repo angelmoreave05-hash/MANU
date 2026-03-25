@@ -1,0 +1,85 @@
+/* 🎨 PALETA */
+:root {
+    --c1: #190019;
+    --c2: #2B124C;
+    --c3: #522B5B;
+    --c4: #854F6C;
+    --c5: #DFB6B2;
+    --c6: #FBE4D8;
+}
+
+/* FONDO GENERAL */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to bottom, var(--c6), var(--c2));
+    color: var(--c6);
+}
+
+/* HEADER */
+header {
+    background: var(--c1);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--c6);
+}
+
+/* CONTENEDOR PRINCIPAL */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+/* FOTO */
+.about-image img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid var(--c5);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* TEXTO */
+.about-text {
+    max-width: 550px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: var(--c6);
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: var(--c6);
+}
+
+/* BOTÓN */
+.btn {
+    display: inline-block;
+    background: var(--c3);
+    color: var(--c6);
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--c4);
+    transform: scale(1.05);
+}
+
